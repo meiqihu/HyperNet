@@ -3,7 +3,9 @@ Pytorch implementation of TGRS paper "HyperNet: Self-Supervised Hyperspectral Sp
 ![image](https://github.com/meiqihu/HyperNet/blob/main/Figure-HyperNet.jpg)
 # Paper
 [HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection](https://ieeexplore.ieee.org/document/9934933)
+
 Please cite our paper if you find it useful for your research.
+
 >@ARTICLE{9934933,
   author={Hu, Meiqi and Wu, Chen and Zhang, Liangpei},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
@@ -26,7 +28,7 @@ Download the [dataset of Viareggio 2013 and Simulated Hymap for HACD task, and U
 > num_idx_Bay.mat
 
 # More
-My personal google web: https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ
+[My personal google web](https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ)
 
 
 
