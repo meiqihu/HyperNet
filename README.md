@@ -18,7 +18,9 @@ Please cite our paper if you find it useful for your research.
 # Installation
 Install Pytorch 1.10.2 with Python 3.6
 # Dataset
-Download the [dataset of Viareggio 2013 and Simulated Hymap for HACD task, and USA, Bay, and Barbara dataset for HBCD task](https://pan.baidu.com/s/1c5Bi8bkqUolWdGKbNmfU1Q),passcode提取密码：af57
+Download the [dataset of Viareggio 2013 and Simulated Hymap for HACD task, and USA, Bay, and Barbara dataset for HBCD task](https://pan.baidu.com/s/1RZWQC6kr4831M-yz9QWCHA),passcode提取密码：r9yt
+链接：https://pan.baidu.com/s/1RZWQC6kr4831M-yz9QWCHA 
+提取码：r9yt
 > Viareggio_data.mat
 > 
 > num_idx_ex1.mat, num_idx_ex2.mat
