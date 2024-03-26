@@ -239,19 +239,10 @@ def zz():
     print('Hello!')
 
 if __name__ == "__main__":
-    # layernum = [127,64]
-    # m = SSL_two_DCNN(layernum)
-    # x1 = torch.randn([1,127,450,375])
-    # x2 = torch.randn([1, 127, 450, 375])
-    # idx = torch.tensor([1,2,3,4])
-    # # output = m(x1,x2,idx,'train')
-    # f1, f2 = m(x1, x2, idx, 'valid')
-    # print(f1.shape)
-
 
     # block, layernum, gamma
     layernum = [127, 64, 128, 64]
-    m = SSL_v29(layernum)
+    m = HyperNet(BasicBlock, layernum, 2)
     x1 = torch.randn([1, 127, 450, 375])
     x2 = torch.randn([1, 127, 450, 375])
     idx = torch.tensor([1, 2, 3, 4])
