@@ -239,17 +239,19 @@ def zz():
     print('Hello!')
 
 if __name__ == "__main__":
-
-    # block, layernum, gamma
+ # block, layernum, gamma
     layernum = [127, 64, 128, 64]
-    m = HyperNet(BasicBlock, layernum, 2)
+    model = HyperNet(BasicBlock, layernum, 2)
     x1 = torch.randn([1, 127, 450, 375])
     x2 = torch.randn([1, 127, 450, 375])
     idx = torch.tensor([1, 2, 3, 4])
-    # output = m(x1,x2,idx,'train')
-    # print(output.shape)
+    model.train() # training mode
+    output = model(x1,x2,idx)
+    print(output.shape)
 
-    f1, f2 = m(x1, x2, idx, 'valid')
+    model.eval() # testing mode
+    f1, f2 = model(x1, x2, idx)
     print(f1.shape)
+
 
 
